@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>School Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse my_nav_bar">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Eva Marwaha</a>
+  </div>
+
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li> <a> href="#Challenger">CHALLENGER</a></li>
+      <li> <a> href="#achievements">ACHIEVEMENTS</a></li>
+      <li> <a> href="#whatsnew">WHAT'S NEW</a></li>
+      <li> <a> href="#contactus">CONTACT US</a></li>
+    </ul>
+  </div>
+  
+  <div class="container">
+
+    <h2 class="page-header" id="campus_life">Campus Life</h2>
+
+    <center>
+      <div class="travel_mainDiv">
+        <img src="challengercampus.png"
+
+        <h4 class= "text-capitalize"><kbd>School lot</kbd></h4>
+        <hr >
+        <h5 class="text-success text-capitalize">was established in 1998</h5>
+        <p class="text-muted" >This is where parents pick up and drop of their kids from school</p>
+      </div>
+    </center>
+
+    <br><br>
+
+    <center>
+      <div class="travel_mainDiv">
+        <img src="challengercourtyard.png"
+
+        <h4 class= "text-capitalize"><kbd>School courtyard</kbd></h4>
+        <hr >
+        <h5 class="text-success text-capitalize">was established in 1999</h5>
+        <p class="text-muted" >This is where students hang out during recess or earn money by selling snacks for the school.</p>
+      </div>
+    </center>
+
+    <br><br>
+
+    <center>
+      <div class="travel_mainDiv">
+        <img src="challengerauditorium.jpeg"
+
+        <h4 class= "text-capitalize"><kbd>School auditorium</kbd></h4>
+        <hr >
+        <h5 class="text-success text-capitalize">was established in 1997</h5>
+        <p class="text-muted" >This is where students do their winter and spring music recitals. They also have lunch here and gather for assemblys.</p>
+      </div>
+    </center>
+
+  </div>
+
+  <h2 class="page-header" id="ACHIEVEMENTS">School Achievements</h2>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievment1">
+    Inter School debate on Enviornmental Pollution <i class="fa fa-sort-desc"></i>
+  </div>
+  <div id="school_achievment1" class="collapse">
+    <div class="achievment_text">
+      <img src="se1.jpg" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize"> Won first prize inter school debate on Enviornment Pollution
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>There were many differenmt opinions, but ours won </p>
+    </div>
+  </div>
+
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievment1">
+    Inter School football competition <i class="fa fa-sort-desc"></i>
+  </div>
+  <div id="school_achievment2" class="collapse">
+    <div class="achievment_text">
+      <img src="se2.jpg" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize"> came second in inter school football competition
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>Our football team gave all of the effort they could to come in second place </p>
+    </div>
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievment1">
+    Inter School Science Project Competition <i class="fa fa-sort-desc"></i>
+  </div>
+  <div id="school_achievment3" class="collapse">
+    <div class="achievment_text">
+      <img src="se3.jpg" class="img-responsive img-thumbnail">
+      <h5 class="text-success text-capitalize"> Won second prize in inter school science competition
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+        <span class="glyphicon glyphicon-star"></span>
+      </h5>
+      <p>We chose the smartest students to compete, and we came in second place </p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
